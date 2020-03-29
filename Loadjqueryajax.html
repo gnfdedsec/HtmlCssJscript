@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+    <h1>Setting Text Content</h1>
+
+<h2 id="01">Hello World!</h2>
+<h2 id="02">Hello test!</h2>
+<h2 id="div1">Hello test!</h2>
+    <script>
+        $(document).ready(function () {
+            $VarElement =$("#02")
+            $VarElement.text("helo green")
+            $("button").click(function(){
+         $("#div1").load("LICENSE.txt");
+  });
+        });
+    </script>
+    <button>Get External Content</button>
+</body>
+</html>
